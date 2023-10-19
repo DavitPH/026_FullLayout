@@ -54,10 +54,11 @@ class MainActivity : ComponentActivity() {
 fun Home(){
     Column(modifier = Modifier
         .fillMaxSize()
-        .padding(20.dp),
+        .padding(25.dp),
         horizontalAlignment = Alignment.CenterHorizontally) {        Text(
-        text = "Cuaca",
-        fontSize = 40.sp)
+        text = "Davit Putra Hartono",
+        textAlign = TextAlign.Center,
+        fontSize = 20.sp)
         BoxHeader()
         Spacer(modifier = Modifier.padding(10.dp))
         Lokasi()
